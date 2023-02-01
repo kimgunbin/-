@@ -1,0 +1,82 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>BoardWriteCon</servlet-name>
+  	<display-name>BoardWriteCon</display-name>
+  	<description></description>
+  	<servlet-class>com.smhrd.controller.BoardWriteCon</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ReplyCon</servlet-name>
+  	<display-name>ReplyCon</display-name>
+  	<description></description>
+  	<servlet-class>com.smhrd.controller.ReplyCon</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>boardPagingCon</servlet-name>
+  	<display-name>boardPagingCon</display-name>
+  	<description></description>
+  	<servlet-class>com.smhrd.controller.boardPagingCon</servlet-class>
+  </servlet>
+
+  <servlet>
+  	<servlet-name>test_JoinCon</servlet-name>
+  	<display-name>test_JoinCon</display-name>
+  	<description></description>
+  	<servlet-class>com.smhrd.controller.test_JoinCon</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>test_idCheckCon</servlet-name>
+  	<display-name>test_idCheckCon</display-name>
+  	<description></description>
+  	<servlet-class>com.smhrd.controller.test_idCheckCon</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>test</servlet-name>
+  	<display-name>test</display-name>
+  	<description></description>
+  	<servlet-class>com.smhrd.controller.test</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>test_loginCon</servlet-name>
+  	<display-name>test_loginCon</display-name>
+  	<description></description>
+  	<servlet-class>com.smhrd.controller.test_loginCon</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>BoardWriteCon</servlet-name>
+  	<url-pattern>/BoardWriteCon</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ReplyCon</servlet-name>
+  	<url-pattern>/ReplyCon</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>boardPagingCon</servlet-name>
+  	<url-pattern>/boardPagingCon</url-pattern>
+  </servlet-mapping>
+
+  
+  <servlet-mapping>
+  	<servlet-name>test_JoinCon</servlet-name>
+  	<url-pattern>/test_JoinCon</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>test_idCheckCon</servlet-name>
+  	<url-pattern>/test_idCheckCon</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>test</servlet-name>
+  	<url-pattern>/test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>test_loginCon</servlet-name>
+  	<url-pattern>/test_loginCon</url-pattern>
+  </servlet-mapping>
+
+</web-app>

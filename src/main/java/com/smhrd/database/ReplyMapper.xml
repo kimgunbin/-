@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.smhrd.model.ReplyDAO"> 
+	
+	<insert  id="insertReply" parameterType="com.smhrd.model.Reply">
+		insert into reply values (reply_seq.nextval,#{boardnum},#{content},#{writer})	
+	</insert>
+	
+	<select id="selectReply" resultType="com.smhrd.model.Reply" parameterType="int" >
+		select * from reply where boardnum= #{boardnum} order by num desc
+	</select>
+	
+</mapper>    
